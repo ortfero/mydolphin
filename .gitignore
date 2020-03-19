@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+build/
+tests/x64/
+tests/.vs/
+*.user
+*.sln
+*.filters
