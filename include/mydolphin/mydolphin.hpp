@@ -74,7 +74,7 @@ struct credentials {
 	
 
 
-enum struct error { };
+enum class error { };
 	
 
 
@@ -90,10 +90,7 @@ struct error_category: std::error_category {
   
 }; // error_category
 
-
-inline error_category mysql_category;
-
-
+inline error_category const mysql_category;
 
 } // mydolphin
 
